@@ -12,7 +12,7 @@ The helper module `vb2net` for Visual Basic for Applications (VBA) 7.0 and suppo
 ## Usage
 
 1. Import [vb2net.bas](./vb2net.bas) and [ExitHandler.bas](./ExitHandler.bas) into your VB/VBA project
-2. Download `vb2net.zip` and extract it (`vb2net.dll` and `vb2net.runtimeconfig.json` will be extracted)
+2. Download `vb2net.zip` from [Releases](https://github.com/jet2jet/vb2net/releases) and extract it (`vb2net.dll` and `vb2net.runtimeconfig.json` will be extracted)
 3. Write your code with calling `InitializeVb2net` procedure
   - After initialization, `LoadAssembly` and `LoadAssemblyFromFile` can be used.
   - The sample is in vb2net.bas as `Sample` procedure.
